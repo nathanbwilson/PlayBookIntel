@@ -1,2 +1,2 @@
 # PlayBookIntel
-Public and provate directory of PlayBookIntelligence.com
+Public and private directory of PlayBookIntelligence.com
