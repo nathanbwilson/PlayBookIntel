@@ -12,7 +12,6 @@
   </head>
 <body>
 
-
 <header class="bgimage">
   <div class="container-fluid">
     <h1>PlayBook Intellignce: Coming Soon</h1>
@@ -41,6 +40,8 @@
 </div>
 </div>
 </body>
+
+<script src="js/script.js"> </script>
 
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
