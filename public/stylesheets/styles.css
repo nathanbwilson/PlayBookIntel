@@ -1,0 +1,24 @@
+.bgimage {
+  background-image: url('../images/The Lord Himself.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+}
+
+.Font {
+  font-family: Lobster, Monospace, Serif, Sans-Serif;
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+
+.Font-Color {
+  color: green;
+}
+
+.services section {
+  text-align: center;
+}
