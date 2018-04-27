@@ -6,6 +6,11 @@
   width: auto;
 }
 
+.jumbotron{
+    background-color:#101010;
+    color:white;
+}
+
 .Font {
   font-family: Lobster, Monospace, Serif, Sans-Serif;
 }

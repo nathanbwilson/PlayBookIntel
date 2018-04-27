@@ -1,5 +1,15 @@
 <?php require_once('../../../private/initialize.php'); ?>
 
+<?php $page_title = 'TEST SUBJECTS Creation'; ?>
+<?php include(SHARED_PATH . '/home_header.php'); ?>
+
+  <div class="jumbotron">
+    <div class="container">
+       <header><h2>TEST SUBJECTS Creation</h2></header>
+    </div>
+  </div>
+
+
 <?php
   $subjects = [
     ['id' => '1', 'position' => '1', 'visible' => '1', 'menu_name' => 'About Globe Bank'],
@@ -9,12 +19,24 @@
   ];
 ?>
 
-<?php $page_title = 'Subjects'; ?>
-<?php include(SHARED_PATH . '/home_header.php'); ?>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6 col-sx-12">
+      <div class="well">
 
 <div id="content">
   <div class="subjects listing">
     <h1>Subjects</h1>
+
+        </div>  
+    </div>  
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6 col-sx-12">
+      <div class="well">
 
     <div class="actions">
       <a class="action" href="<?php echo url_for('/copy/subjects/new.php'); ?>">Create New Subject</a>
@@ -30,6 +52,11 @@
   	    <th>&nbsp;</th>
         <th>&nbsp;</th>
   	  </tr>
+
+      </div>  
+    </div>  
+  </div>
+</div>
 
       <?php foreach($subjects as $subject) { ?>
         <tr>
