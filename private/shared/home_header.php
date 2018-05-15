@@ -12,16 +12,25 @@
     <meta property="fb:admins" content=""/>
     <title>PlayBookIntel - <?php echo h($page_title); ?></title>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <!--
+    <link rel="stylesheet" href="<?php echo url_for('../public/stylesheets/BootStrap/css/bootstrap.css');?>">
+    <link rel="stylesheet" href="<?php echo url_for('../public/stylesheets/BootStrap/js/bootstrap.js');?>">
+    <link rel="stylesheet" href="<?php echo url_for('../public/stylesheets/BootStrap/css/bootstrap.min.css');?>">
+    -->
+
     <link href="https://maxcdn.bootstrapcdn.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo url_for('../public/stylesheets/styles.css');?>">
     <link href="jumbotron.css" rel="stylesheet">
     <link rel="icon" href="../../favicon.ico">
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
   </head>
-
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+<header>
+    <div id="mainHeader">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
          <div class="container">
            <div class="navbar-header">
 
@@ -51,4 +60,8 @@
 
            </div><!--/.navbar-collapse -->
          </div><!--Container-->
-       </nav>
+ </header>
+
+ <body>
+
+<br></br>
