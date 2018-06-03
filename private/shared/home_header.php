@@ -28,9 +28,9 @@
     <link rel="icon" href="../../favicon.ico">
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
   </head>
-
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+<header>
+    <div id="mainHeader">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
          <div class="container">
            <div class="navbar-header">
 
@@ -60,4 +60,6 @@
 
            </div><!--/.navbar-collapse -->
          </div><!--Container-->
-       </nav>
+ </header>
+
+<br></br>
