@@ -58,8 +58,11 @@
                <button type="submit" class="btn btn-success">Sign in</button>
              </form>
 
-           </div><!--/.navbar-collapse -->
-         </div><!--Container-->
- </header>
+        </div><!--/.navbar-collapse -->
+      </div><!--Container-->
+    </nav><!--Navbar-->
+  </div><!--mainHeader-->
+
+</header>
 
 <br></br>

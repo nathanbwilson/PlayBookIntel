@@ -63,4 +63,17 @@
   </div>    
 </div>  
 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-sx-12">
+      <div class="well">  
+        <div class="btn-group btn-group-lg" role="group" aria-label="...">
+          <a class="btn btn-lg btn-primary" href="<?php echo url_for('../source/index.html'); ?>" role="button">Sign Up Form from Internet</a>
+        </div>
+      </div>  
+    </div>  
+  </div>
+</div>
+
+
 <?php include(SHARED_PATH . '/home_footer.php'); ?>

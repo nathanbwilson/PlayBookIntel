@@ -2,7 +2,7 @@
 <?php $page_title = 'Home Page'; ?>
 <?php include(SHARED_PATH . '/home_header.php'); ?>
      
-  </header>
+<body>
      <div class="jumbotron">
        <div class="container">
           <header class="bgimage">
@@ -33,5 +33,7 @@
           </div>
         </div>
       </div>
+
+</body>
 
 <?php include(SHARED_PATH . '/home_footer.php'); ?>
