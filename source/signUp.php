@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-include("include/db.php");
+require_once("include/db.php");
 
 /*
 $sql = "SELECT * FROM users";
@@ -38,7 +38,11 @@ if (array_key_exists("username", $_REQUEST)) {
 <head>
 	<title>Nathan's Form</title>
 </head>
+<?php require_once('../private/initialize.php'); ?>
+<?php $page_title = 'Home Page'; ?>
+<?php include(SHARED_PATH . '/nu_header.php'); ?>
 <body>
+
 	<h1>SIGN UP!</h1>
 	<form method="post">
 		<input type="text" name="username" placeholder="User Name" required>
@@ -46,5 +50,6 @@ if (array_key_exists("username", $_REQUEST)) {
 		<input type="email" name="email" placeholder="Email" required>
 		<input type="submit" value="sendIt">		
 	</form>
+<?php include(SHARED_PATH . '/home_footer.php'); ?>
 </body>
 </html>
